@@ -37,7 +37,7 @@ public class SubtitleTrackMixier : PlayableBehaviour
 					currentText = m_LoadingHadle.Result.GetEntry(input.key).LocalizedValue;
 				}
 				else {
-					currentText = input.key;
+					currentText = input.key.ToString();
 				}
 #else
 				if (m_LoadingHadle.IsValid() && m_LoadingHadle.IsDone) {

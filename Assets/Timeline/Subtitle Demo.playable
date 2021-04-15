@@ -284,4 +284,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b33640fc8bc11c41b0fccf17ca67ce4, type: 3}
   m_Name: SubtitleClip
   m_EditorClassIdentifier: 
-  key: entry_01
+  entry:
+    m_TableReference:
+      m_TableCollectionName: GUID:d3cc4c9c38737df4cb6086e2e598bc3c
+    m_TableEntryReference:
+      m_KeyId: 18650226688
+      m_Key: 
+    m_FallbackState: 0
